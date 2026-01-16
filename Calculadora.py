@@ -76,9 +76,10 @@ def calcular():
         resultado = str(eval(expressao))
         app_label['text'] = resultado
     except:
-        app_label['text'] = "Erro"
+        app_label['text'] = "Error"
 b_18.config(command=calcular)
 
 def limpar():
     app_label['text'] = ""
+
 janela.mainloop()
