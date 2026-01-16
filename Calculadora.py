@@ -35,7 +35,7 @@ app_label.place(x=0, y=0)
 #botões
 b_1 = tk.Button(frame_botoes, text="C", width=11, height=2, bg=COR_BOTAO, fg=COR_BOTAO_TEXTO, command=limpar, font=("Ivy 13 bold"))
 b_1.place(x=0, y=0)
-b_2 = tk.Button(frame_botoes, text="%", width=5, height=2, bg=COR_BOTAO, fg=COR_BOTAO_TEXTO, command=lambda: entrar_valores("%"), font=("Ivy 13 bold"))
+b_2 = tk.Button(frame_botoes, text="%", width=5, height=2, bg=COR_BOTAO, fg=COR_BOTAO_TEXTO2, command=lambda: entrar_valores("%"), font=("Ivy 13 bold"))
 b_2.place(x=118, y=0)
 b_3 = tk.Button(frame_botoes, text="/", width=5, height=2, bg=COR_BOTAO2, fg=COR_BOTAO_TEXTO, command=lambda: entrar_valores("/"), font=("Ivy 13 bold"))
 b_3.place(x=177, y=0)
@@ -83,3 +83,4 @@ def limpar():
     app_label['text'] = ""
 
 janela.mainloop()
+
