@@ -1,16 +1,3 @@
-﻿# Projeto-Test
-num1 = int(input('Primeiro numero: '))
-num2 = int(input('Segundo numero: '))
-operacao = input('Qual operação? ')
+#Projetos
 
-match operacao:
-    case '+':
-        res = num1 + num2
-    case '-':
-        res = num1 - num2
-    case '*':
-        res = num1 * num2
-    case '/':
-        res = num1 / num2
-
-print(f"A resposta é: {res}")
+fases de evolução
